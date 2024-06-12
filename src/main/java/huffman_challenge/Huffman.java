@@ -118,6 +118,8 @@ public class Huffman {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter 1 or 2 to select relevant data set");
         int userInput = scanner.nextInt();
+//        System.out.println("File Name to Read");
+//        int userInput = scanner.nextInt();
 
         ENCODED_STRING_PRINT_MESSAGE = "\nEncoded Huffman data:";
         DECODED_STRING_PRINT_MESSAGE = "\nDecoded Huffman Data:";
